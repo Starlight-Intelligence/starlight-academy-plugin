@@ -7,14 +7,14 @@ Four skills and four public HTTP MCP tools connect eight fictional teaching meth
 ## Codex
 
 ```sh
-codex plugin marketplace add frankxai/starlight-academy-plugin --ref main
+codex plugin marketplace add Starlight-Intelligence/starlight-academy-plugin --ref main
 codex plugin add starlight-academy@starlight-academy
 ```
 
 ## Claude Code
 
 ```sh
-claude plugin marketplace add frankxai/starlight-academy-plugin
+claude plugin marketplace add Starlight-Intelligence/starlight-academy-plugin
 claude plugin install starlight-academy@starlight-academy
 ```
 
