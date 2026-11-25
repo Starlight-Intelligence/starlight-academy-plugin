@@ -37,10 +37,10 @@
         "source": "git-subdir",
         "url": "https://github.com/frankxai/starlight-academy-plugin.git",
         "path": "plugins/starlight-academy",
-        "sha": "3d541b376a94989b0407735f48d9f1482ad996b6"
+        "sha": "771aadd15a6ad98012879207a3bc69ca24e761c5"
       },
       "description": "Practice with public Academy guides, nine artifact quests and a local handoff to canonical AI Architect delivery.",
-      "version": "0.2.0"
+      "version": "0.3.0"
     }
   ]
 }
