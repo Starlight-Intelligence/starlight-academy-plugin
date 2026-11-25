@@ -1,0 +1,53 @@
+{
+  "version": "1.0.0",
+  "case": {
+    "name": "Fictional North Quay help desk",
+    "brief": "A 12-person help desk handles 60 handbook questions each week. Its lead wants a pilot to test whether staff can find a supported answer faster. Current answer time and error rate have never been measured. The pilot has ten working days and no permission to use employee records.",
+    "rules": [
+      "Remote work is allowed up to two days each week with manager approval.",
+      "Expense receipts must be submitted within 30 days."
+    ],
+    "questions": [
+      "May I work remotely for two days without approval?",
+      "When must I submit a receipt?",
+      "What is the allowance for travel meals?"
+    ]
+  },
+  "roles": {
+    "account-manager": {
+      "artifact": "Opportunity brief",
+      "attempt": "Write three discovery questions that distinguish a search problem from a staffing problem. Name the buyer and the cheapest test of demand.",
+      "acceptance": "A buyer could decline the pilot based on the stated success threshold.",
+      "transfer": "The budget owner freezes new software purchases. Revise the next ask."
+    },
+    "solution-engineer": {
+      "artifact": "Pilot experiment",
+      "attempt": "Specify the smallest repeatable demonstration, a manual baseline and two failure cases.",
+      "acceptance": "A colleague can reproduce the baseline and reject the pilot using the same measure.",
+      "transfer": "The sponsor requires the demo to run on synthetic data only. Revise its design and limits."
+    },
+    "ai-architect": {
+      "artifact": "Architecture decision record",
+      "attempt": "Compare two viable designs for data access, an evaluation boundary and a reversible rollout.",
+      "acceptance": "Trace one request from source to answer, name the data owner and record a rollback trigger.",
+      "transfer": "One source loses its access approval. Revisit scope, cost and the chosen design."
+    },
+    "technical-consultant": {
+      "artifact": "Pilot statement of work",
+      "attempt": "Write the decision, deliverables, exclusions, acceptance owner and handover for a small engagement.",
+      "acceptance": "A client and delivery lead can identify the same acceptance event and who owns remediation.",
+      "transfer": "The client halves the delivery window. Negotiate one explicit scope cut."
+    },
+    "student": {
+      "artifact": "Evidence table",
+      "attempt": "Using paper or a text editor, compare three sample questions to the two handbook rules. Record the source or mark the answer unknown.",
+      "acceptance": "For each answer, a peer can trace the exact rule or identify the missing fact.",
+      "transfer": "The remote-work rule changes to one day. Identify which answer changes and cite the new rule."
+    }
+  },
+  "stages": {
+    "start": "Draft your first attempt using only the fictional brief. Record each assumption and leave unknowns visible.",
+    "draft": "Critique the existing draft against the acceptance condition. Record one defect, the change made and the revised artifact.",
+    "revised": "Apply the changed constraint to the revised artifact. Preserve the earlier decision and explain what now changes."
+  }
+}

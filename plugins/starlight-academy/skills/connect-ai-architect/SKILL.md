@@ -1,6 +1,6 @@
 ---
 name: connect-ai-architect
-description: Connect Starlight Academy practice to the separate AI Architect Academy human or sponsored-agent path and its canonical local AI Architect team. Use when the user wants architecture artifacts, multi-cloud implementation, validated deploy templates, or permissioned Academy resources after learning.
+description: Connect Starlight Academy practice to the separate AI Architect Academy human or sponsored-agent path and its canonical local AI Architect team. Use when a professional or student wants a free learning navigator, a next practice artifact, architecture artifacts, multi-cloud implementation, validated deploy templates, or permissioned Academy resources after learning.
 ---
 
 # Connect AI Architect
@@ -10,6 +10,28 @@ Preserve Starlight Academy's teaching record and identity. Use the separate
 architecture learning and the canonical
 [AI Architect team](https://github.com/frankxai/ai-architect) for gated delivery.
 Read [the handoff contract](references/handoff.md) before preparing the connection.
+
+## Start a free professional practice route
+
+For a human learner choosing a next exercise, use the bundled
+[professional practice case](references/professional-practice.json). Ask for their
+role and whether they have a first draft or a revised artifact for this case.
+Use the closest role with their agreement. Select `start` without an attempt,
+`draft` with a first attempt, or `revised` after critique and revision.
+A learner changing roles should select a stage for the new deliverable.
+
+From the plugin root run `node scripts/learning_navigator.mjs account-manager start`,
+substituting the chosen role and stage. Hosts without Node can read the same case,
+role and stage entries directly. Give the learner the case, this stage's task,
+one artifact and its acceptance condition. Wait for their attempt before giving
+a model answer. Ask them to retain earlier attempts and assistance locally. Use
+the transfer question after revision. Completion is self-reported practice.
+
+The synthetic case and plan can be used offline without a paid product, cloud
+account or client data. Offer the separate architecture handoff only when the
+learner asks to continue to technical implementation.
+
+## Prepare an architecture handoff
 
 Use the verified Academy deployment origin already available in the task.
 Run `scripts/architect_handoff.mjs` from this plugin's root with
