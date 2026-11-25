@@ -8,7 +8,7 @@
       "Expense receipts must be submitted within 30 days."
     ],
     "questions": [
-      "May I work remotely for two days without approval?",
+      "May I work remotely for two days with manager approval?",
       "When must I submit a receipt?",
       "What is the allowance for travel meals?"
     ]
@@ -24,7 +24,7 @@
       "artifact": "Pilot experiment",
       "attempt": "Specify the smallest repeatable demonstration, a manual baseline and two failure cases.",
       "acceptance": "A colleague can reproduce the baseline and reject the pilot using the same measure.",
-      "transfer": "The sponsor requires the demo to run on synthetic data only. Revise its design and limits."
+      "transfer": "The sponsor now requires every answer in under two seconds on a laptop with no network. Replace an online dependency or document how the pilot will test latency offline."
     },
     "ai-architect": {
       "artifact": "Architecture decision record",

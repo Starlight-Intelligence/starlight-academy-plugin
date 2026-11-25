@@ -42,3 +42,16 @@ test('output is reproducible and invalid arguments never leak into the response'
     assert.doesNotMatch(result.stderr, /private-note/);
   }
 });
+
+test('student transfer changes the supported answer for a two-day approved request', () => {
+  const plan = JSON.parse(run('student', 'revised').stdout);
+  assert.match(plan.scenario.rules[0], /up to two days.*with manager approval/);
+  assert.match(plan.scenario.questions[0], /two days with manager approval/);
+  assert.match(plan.transfer, /changes to one day/);
+});
+
+test('solution engineer transfer introduces an offline latency requirement', () => {
+  const plan = JSON.parse(run('solution-engineer', 'revised').stdout);
+  assert.doesNotMatch(plan.scenario.brief, /under two seconds|no network/);
+  assert.match(plan.transfer, /under two seconds.*no network/);
+});
