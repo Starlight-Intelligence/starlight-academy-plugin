@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "case": {
     "name": "Fictional North Quay help desk",
     "brief": "A 12-person help desk handles 60 handbook questions each week. Its lead wants a pilot to test whether staff can find a supported answer faster. Current answer time and error rate have never been measured. The pilot has ten working days and no permission to use employee records.",
@@ -43,6 +43,24 @@
       "attempt": "Using paper or a text editor, compare three sample questions to the two handbook rules. Record the source or mark the answer unknown.",
       "acceptance": "For each answer, a peer can trace the exact rule or identify the missing fact.",
       "transfer": "The remote-work rule changes to one day. Identify which answer changes and cite the new rule."
+    },
+    "founder": {
+      "artifact": "Founder decision memo",
+      "attempt": "You have ten working days to decide whether this help desk deserves more founder time. Compare changing the handbook index with drafting AI answers. Name the person whose repeat use would change your investment decision and one assumption to test first.",
+      "acceptance": "A colleague can tell what you would fund, what would make you stop, and when you will revisit the decision.",
+      "transfer": "The help desk lead accepts the workflow but cannot own its upkeep. Revise the experiment and decide who must commit before you invest."
+    },
+    "creator": {
+      "artifact": "Editorial proof sheet",
+      "attempt": "Turn the two approved handbook rules into a useful three-question explainer for new hires. For each answer, cite its source or mark the missing fact, and name the editor who can approve release.",
+      "acceptance": "A reviewer can trace each statement to the supplied rules and identify the unanswered question without guessing.",
+      "transfer": "The expense rule is withdrawn before publication. Mark the affected answer, revise the explainer and show which editor must clear it."
+    },
+    "enterprise-lead": {
+      "artifact": "Team adoption brief",
+      "attempt": "Plan a ten-day shadow trial with the help desk lead. Identify the person operating it, a second person checking unsupported answers, the current comparison method and the decision at day ten.",
+      "acceptance": "A sponsor can name the adoption owner, decide from the same evidence and stop an unsafe release before an external reply.",
+      "transfer": "The original operator changes teams on day five. Explain what a second operator must reproduce before the sponsor can continue the trial."
     }
   },
   "stages": {
