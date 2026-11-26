@@ -14,7 +14,7 @@ Licensed under [Apache-2.0](LICENSE).
 
 ## Learn in your AI conversation
 
-The **Starlight Academy** connection plugin adds eight teaching methods, four challenges and a practical feedback loop through four skills and four public remote MCP tools. Version 0.3.0 adds an offline professional learning navigator inside the existing AI Architect handoff. It selects one practice artifact for a cloud account manager, solution engineer, architect, consultant or student.
+The **Starlight Academy** connection plugin adds eight teaching methods, four challenges and a practical feedback loop through four skills and four public remote MCP tools. Version 0.4.0 adds an offline professional learning navigator inside the existing AI Architect handoff. It selects one practice artifact for a cloud account manager, solution engineer, architect, consultant, student, founder, creator or enterprise lead.
 
 [Install the conversation plugin](docs/academy/connection.md) · [Meet your guide](https://starlightintelligence.academy/academy/connect)
 
