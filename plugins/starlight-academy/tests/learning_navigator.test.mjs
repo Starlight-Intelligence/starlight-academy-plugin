@@ -11,6 +11,9 @@ const roles = {
   'ai-architect': 'Architecture decision record',
   'technical-consultant': 'Pilot statement of work',
   student: 'Evidence table',
+  founder: 'Founder decision memo',
+  creator: 'Editorial proof sheet',
+  'enterprise-lead': 'Team adoption brief',
 };
 
 for (const [role, artifact] of Object.entries(roles)) {
@@ -54,4 +57,18 @@ test('solution engineer transfer introduces an offline latency requirement', () 
   const plan = JSON.parse(run('solution-engineer', 'revised').stdout);
   assert.doesNotMatch(plan.scenario.brief, /under two seconds|no network/);
   assert.match(plan.transfer, /under two seconds.*no network/);
+});
+
+test('worksheets carry the source case and role criterion without revealing a later transfer', () => {
+  for (const role of Object.keys(roles)) {
+    const revised = JSON.parse(run(role, 'revised').stdout);
+    const sheet = run(role, 'start', '--worksheet');
+    assert.equal(sheet.status, 0);
+    for (const text of [revised.scenario.brief, ...revised.scenario.questions, ...revised.scenario.rules,
+      revised.artifact, revised.assignment, revised.acceptance, 'First attempt (keep the original wording):']) {
+      assert.ok(sheet.stdout.includes(text));
+    }
+    assert.ok(!sheet.stdout.includes(revised.transfer));
+    assert.ok(run(role, 'revised', '--worksheet').stdout.includes(revised.transfer));
+  }
 });

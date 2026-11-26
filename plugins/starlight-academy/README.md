@@ -3,7 +3,7 @@
 Public teaching material for your AI conversation: choose a challenge, make your
 own first attempt, practice with a guide, critique, revise and test transfer.
 
-Version 0.3.0 provides four skills and connects four public MCP tools:
+Version 0.4.0 provides four skills and connects four public MCP tools:
 `get_academy`, `get_teacher`, `get_challenge`, `get_feedback_guide`.
 The server is `https://starlightintelligence.academy/mcp` (Streamable HTTP).
 It accepts catalog IDs only. No drafts, accounts, private data, model calls,
@@ -101,7 +101,7 @@ account saving, website deployment and public directory approval are separate.
 ## Free professional learning navigator
 
 Choose an account manager, solution engineer, AI architect, technical consultant
-or student route in the existing `connect-ai-architect` skill. Take a fictional
+student, founder, creator or enterprise lead route in the existing `connect-ai-architect` skill. Take a fictional
 help desk from an initial brief to an evidence-backed decision. A learner can
 use the case offline with Node 20+ from this folder.
 
@@ -114,3 +114,8 @@ The JSON output includes the source brief, the selected artifact, a task and a
 check for the current stage. Keep the output and your attempts in your own
 workspace. Advance to `draft` when you have an attempt and `revised` after
 critique. The helper reads its bundled curriculum and prints to stdout.
+
+Print a self-contained worksheet for a learner and their next host with
+`node scripts/learning_navigator.mjs founder start --worksheet`. Share only
+the evidence the learner chooses. Read the changed constraint with the same
+role and `revised` stage after recording a critique and revision.

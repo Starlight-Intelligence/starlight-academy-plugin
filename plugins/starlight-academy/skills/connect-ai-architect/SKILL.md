@@ -65,3 +65,17 @@ Cloud, OpenClaw/Hermes, n8n or Langfuse compositions, validate their current off
 documentation, versioned source, licenses, deployment and rollback in the selected
 tenant before claiming support. Link licensed book metadata and permitted notes;
 do not copy books or restricted curricula into the public plugin or model corpus.
+
+## Carry the exercise to another host
+
+When a learner wants to work on paper or continue elsewhere, append
+`--worksheet` to the role and stage command. The helper prints editable
+Markdown with the case, source rules, decisions and an empty evidence section.
+A host without a shell can render these same fields from the bundled case.
+Offer the worksheet directly. Keep the learner's original attempt verbatim and
+leave missing evidence empty. Save only to a learner-selected private location.
+When reopening, resume from the first unfinished exercise. Ask for a learner
+decision before revealing feedback. Offer a different constraint after a
+revision. Record any help requested or given alongside that attempt.
+The learner can paste the sections they choose into ChatGPT, Codex or Claude
+Code. The public catalog tools take catalog IDs only.
