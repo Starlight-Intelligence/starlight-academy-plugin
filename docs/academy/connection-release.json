@@ -2,7 +2,7 @@
   "schema": "starlight.academy_connection_source.v2",
   "plugin": "starlight-academy",
   "version": "0.4.0",
-  "payloadRevision": "caee0674b66c2f0ed3a3cb6c7fd0ffb025b3be99",
+  "payloadRevision": "312d8aa4643cd709bf4d26d082561accb1984dac",
   "repository": "https://github.com/frankxai/starlight-academy-plugin",
   "sourcePath": "plugins/starlight-academy",
   "sourceDelivery": "Git candidate; private account update handled separately",
@@ -40,7 +40,7 @@
     "skills/run-learning-quest/SKILL.md": "c9a2875e1fe00db60a44f9a1acdf66582c3448e639ab2711d9149cd9defc0148",
     "skills/run-learning-quest/references/practice-record.md": "631a23b66012b66a0f9ca169929e6c6657e0c35dd23c7dc443a021d40e598286",
     "skills/run-learning-quest/references/quests.json": "500b1031fcbc50e5281544b3128792de7a4e9bbcfefda745a8a2e92dd8ec1786",
-    "skills/run-learning-quest/references/seven-lights.json": "1a28eb07e85f2d5cae135a4f75a511efb039dfea833001289a4363c1785d0b08",
+    "skills/run-learning-quest/references/seven-lights.json": "5fc7511a4b5a0396a9031d83ddfe883dbc96bc5d7a03d29d13db00a925b967fa",
     "tests/architect_handoff.test.mjs": "0ed5e9700af6673d49a1c727dc03b2a0c18ff19e0732ff38660d6a5fda315a6e",
     "tests/learning_navigator.test.mjs": "1e1588300d7717af11ab9eeb5867c57e2bfee3bba8cd475433a82dffb1a368b7",
     "tests/quest_record.test.mjs": "8d049c385e142597a5519bb8275c47e1a1af0df62c5f6484587d3a666da7b047"
