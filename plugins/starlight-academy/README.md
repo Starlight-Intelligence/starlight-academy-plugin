@@ -3,7 +3,7 @@
 Public teaching material for your AI conversation: choose a challenge, make your
 own first attempt, practice with a guide, critique, revise and test transfer.
 
-Version 0.3.0 provides four skills and connects four public MCP tools:
+Version 0.4.0 provides four skills and connects four public MCP tools:
 `get_academy`, `get_teacher`, `get_challenge`, `get_feedback_guide`.
 The server is `https://starlightintelligence.academy/mcp` (Streamable HTTP).
 It accepts catalog IDs only. No drafts, accounts, private data, model calls,
