@@ -48,7 +48,7 @@
     {
       "number": 6, "id": "architect", "name": "Architect", "becomes": "Takes an agent system to production", "guide": "rune",
       "doorQuestion": "What would your evaluation miss, and who finds out first when it does?",
-      "quests": ["living-web-design", "agent-canvas"],
+      "quests": ["living-web-design"],
       "operatorMissions": [],
       "handoff": "AI Architect Academy, the Starlight technical school. Use the connect-ai-architect skill for the handoff.",
       "proof": ["An evaluation set with a failure case.", "A tool-authority record.", "An independent review of the exact revision."]
