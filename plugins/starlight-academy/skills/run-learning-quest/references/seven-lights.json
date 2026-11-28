@@ -1,0 +1,64 @@
+{
+  "schema": "starlight.seven_lights_map.v1",
+  "version": "0.1.0",
+  "checkedOn": "2026-11-27",
+  "source": "https://starlightintelligence.academy/academy/journey/lights.json",
+  "status": "curriculum-design-draft",
+  "placementIsEditorial": true,
+  "progressIsSelfReported": true,
+  "issuesCredentials": false,
+  "grantsAuthority": false,
+  "note": "Use this map to tell a learner which light a quest or mission belongs to and what comes next. It changes no quest content. PARA is Tiago Forte's method; STELLAR is an open, draft Starlight method.",
+  "lights": [
+    {
+      "number": 1, "id": "spark", "name": "Spark", "becomes": "Uses AI with judgment", "guide": "sophia",
+      "doorQuestion": "A convincing answer. Which part of it would you stake your name on?",
+      "quests": [],
+      "operatorMissions": ["human.keep-your-judgment"],
+      "proof": ["One question, one answer, one marked-up copy.", "At least one claim traced to a source you opened.", "One sentence on what you would ask differently next time."]
+    },
+    {
+      "number": 2, "id": "companion", "name": "Companion", "becomes": "Briefs and critiques one agent", "guide": "lin",
+      "doorQuestion": "Would a capable stranger know what done looks like from your brief alone?",
+      "quests": ["agent-and-skill-design"],
+      "operatorMissions": ["universe.read-an-unseen-world"],
+      "proof": ["A brief with context, constraints and acceptance checks.", "The first output and the revised output side by side.", "A note on which instruction changed the result."]
+    },
+    {
+      "number": 3, "id": "second-brain", "name": "Second Brain", "becomes": "Owns their memory", "guide": "mira",
+      "doorQuestion": "If your agent remembered everything you told it, what would you want it to forget?",
+      "quests": ["private-second-brain"],
+      "operatorMissions": [],
+      "proof": ["A PARA folder for one active project.", "Three retrieval questions with the sources they returned.", "One item you chose to delete, and why."]
+    },
+    {
+      "number": 4, "id": "orchestrator", "name": "Orchestrator", "becomes": "Runs a small team of agents", "guide": "kai",
+      "doorQuestion": "Before you look at the results: which agent do you expect to be wrong, and how will you know?",
+      "quests": ["frontier-operator", "agent-canvas"],
+      "operatorMissions": ["systems.design-one-ai-department"],
+      "proof": ["A task split with one output per agent.", "A review record that names one disagreement.", "A recovery note for one failed step."]
+    },
+    {
+      "number": 5, "id": "operator", "name": "Operator", "becomes": "Runs one trusted weekly workflow", "guide": "aegis",
+      "doorQuestion": "Who can stop this workflow, and what happens downstream when it runs?",
+      "quests": ["service-business", "owned-income-assets", "product-studio"],
+      "operatorMissions": ["systems.bound-one-agentic-workflow"],
+      "proof": ["A workflow card with owner, authority and stop condition.", "Two weeks of receipts.", "One change made because of what a receipt showed."]
+    },
+    {
+      "number": 6, "id": "architect", "name": "Architect", "becomes": "Takes an agent system to production", "guide": "rune",
+      "doorQuestion": "What would your evaluation miss, and who finds out first when it does?",
+      "quests": ["living-web-design"],
+      "operatorMissions": [],
+      "handoff": "AI Architect Academy, the Starlight technical school. Use the connect-ai-architect skill for the handoff.",
+      "proof": ["An evaluation set with a failure case.", "A tool-authority record.", "An independent review of the exact revision."]
+    },
+    {
+      "number": 7, "id": "steward", "name": "Steward", "becomes": "Leads and teaches with care", "guide": "solon",
+      "doorQuestion": "Who inherits this decision, and can they change it?",
+      "quests": ["portfolio-capstone"],
+      "operatorMissions": [],
+      "proof": ["A public portfolio entry with sources and limits.", "One peer review given.", "One decision record that names who can reverse it."]
+    }
+  ]
+}

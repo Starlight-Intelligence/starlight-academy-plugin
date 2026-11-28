@@ -12,6 +12,15 @@ the available host tools and the learner's own accounts. This package supplies
 teaching instructions, public examples and an offline record checker. It does
 not supply a hosted tutor, storage, credentials, model access or an LMS account.
 
+## Place the quest on the Seven Lights
+
+Read [the Seven Lights map](references/seven-lights.json) when the learner asks
+where they are, what comes next, or which quest fits their level. Name the light
+the chosen quest belongs to, ask the guide's door question once, and point to the
+light's proof of mastery. Placement is editorial and self-reported; it is not an
+assessment, credential or permission. Light 6 hands off to AI Architect Academy
+through the connect-ai-architect skill. Credit PARA to Tiago Forte when you use it.
+
 ## Establish one working contract
 
 Name the learner's decision, artifact, selected sources, available tools, time
