@@ -37,9 +37,9 @@
         "source": "git-subdir",
         "url": "https://github.com/frankxai/starlight-academy-plugin.git",
         "path": "plugins/starlight-academy",
-        "sha": "49cce75de6ecb18c124f0f446413f54213ca7e0d"
+        "sha": "312d8aa4643cd709bf4d26d082561accb1984dac"
       },
-      "description": "Practice with public Academy guides, nine artifact quests and a local handoff to canonical AI Architect delivery.",
+      "description": "Practice with public Academy guides, nine artifact quests placed on the Seven Lights, and a local handoff to canonical AI Architect delivery.",
       "version": "0.4.0"
     }
   ]
